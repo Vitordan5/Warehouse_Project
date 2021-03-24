@@ -17,4 +17,4 @@ Para Ching (2010) a administração de estoques, bem trabalhado como um conceito
 (CHING, H. Y. Gestão de estoque na cadeia de logística integrada: Supply Chain. 4. ed. São Paulo: Atlas, 2010.)
 
 ### Proposta de Solução
-  Sistema para gestão completa de estoque
+  
