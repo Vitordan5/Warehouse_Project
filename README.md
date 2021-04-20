@@ -13,5 +13,15 @@ O Instituto de Educação Tecnológica (Ietec) (2016), faz referência a uma pes
 
 Para Ching em Gestão de estoque na cadeia de logística integrada: Supply Chain(2010) a administração de estoques, bem trabalhado como um conceito integrado, e não apenas como uma estratégia para diminuição de custos, é essencial para a sobrevivência do negócio.
 
+Para o caso em que o projeto foi pensado 
+
 ### Proposta de Solução
-  
+  Sistema para controle de estoque, vendas e compras. 
+Por meio de registro das vendas, controle do estoque (quantidade minima e máxima necessária | data de vencimento), categorização dos itens é possivel se ter um controle dos bens evitando perdas dentro do estoque e planejar a reposição dos produtos por parte do comprador;
+
+### Arquitetura do projeto
+A estrutura do projeto consiste em quatro partes: 1.REGISTRADOR, 2.GERENCIADOR, 3.API e 4.VISUALIZADOR;
+1.REGISTRADOR - Registrar e enviar as vendas de forma detalhada e padronizada;
+2.GERENCIADOR - Disponibilizar dashboard, alterar dados do estoque
+O projeto é para ser o mais modular possivel e aplicavel em outros casos onde já se possuam partes que façam tarefas semelhantes;
+![image](https://user-images.githubusercontent.com/55815066/115421864-bbbf1b80-a1d2-11eb-96bf-f4e90d3c9249.png)
