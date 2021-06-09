@@ -14,15 +14,15 @@
 ### Proposta de Solução
   Por meio de registro das vendas, controle do estoque (quantidade minima e máxima necessária | data de vencimento), categorização dos itens é possivel se ter um controle dos bens evitando perdas dentro do estoque e planejar a reposição dos produtos por parte do comprador.
   Serão gerados os seguintes indicadores:
-  . Média móvel de produtos vendidos e vendas realizadas em determinado periodo de tempo;
-  . Classificação ABC dos produtos cadastrados;
+  - Média móvel de produtos vendidos e vendas realizadas em determinado periodo de tempo;
+  - Classificação ABC dos produtos cadastrados;</br>
  Também será aplicado um modelo machine learning de apredizagem por reforço para realizar o cálculo de previsão de demanda através dos registros das vendas, utilizando Machine Learning para combinar dados de séries temporais com variáveis adicionais para criar previsões;
 
 ### Arquitetura do projeto
 A estrutura do projeto consiste em quatro partes: </br>
-1.REGISTRADOR - Registrar e enviar as vendas de forma detalhada e padronizada;</br>
-2.GERENCIADOR - Disponibilizar informações, correção dados do estoque e das vendas que forem lançados de maneira incorreta;</br>
-3.API - Método de acesso ao banco de dados;</br>
-4.VISUALIZADOR - Disponibilizar as informações para individuos remotos;</br>
+- REGISTRADOR - Registrar e enviar as vendas e movimentações no estoque de forma detalhada e padronizada;</br>
+- GERENCIADOR - Disponibilizar informações, correção dados do estoque e das vendas que forem lançados de maneira incorreta;</br>
+- API - Método de acesso ao banco de dados;</br>
+- VISUALIZADOR - Disponibilizar as informações para individuos remotos;</br>
 O projeto é para ser o mais modular possivel e aplicavel em outros casos onde já se possuam partes que façam tarefas semelhantes;</br>
 ![image](https://user-images.githubusercontent.com/55815066/115421864-bbbf1b80-a1d2-11eb-96bf-f4e90d3c9249.png)
