@@ -19,9 +19,9 @@
  Também será aplicado um modelo machine learning de apredizagem por reforço para realizar o cálculo de previsão de demanda através dos registros das vendas, utilizando Machine Learning para combinar dados de séries temporais com variáveis adicionais para criar previsões;
 
 ### Arquitetura do projeto
-A estrutura do projeto consiste em quatro partes: 1.REGISTRADOR, 2.GERENCIADOR, 3.API e 4.VISUALIZADOR;</br>
+A estrutura do projeto consiste em quatro partes: </br>
 1.REGISTRADOR - Registrar e enviar as vendas de forma detalhada e padronizada;</br>
-2.GERENCIADOR - Disponibilizar informações, alterar dados do estoque e das vendas;</br>
+2.GERENCIADOR - Disponibilizar informações, correção dados do estoque e das vendas que forem lançados de maneira incorreta;</br>
 3.API - Método de acesso ao banco de dados;</br>
 4.VISUALIZADOR - Disponibilizar as informações para individuos remotos;</br>
 O projeto é para ser o mais modular possivel e aplicavel em outros casos onde já se possuam partes que façam tarefas semelhantes;</br>
